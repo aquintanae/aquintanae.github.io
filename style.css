@@ -98,7 +98,7 @@ ul {
     padding-left: 20px;
 }
 
-/* BUTTON */
+/* BUTTONS */
 
 .button {
     display: inline-block;
@@ -107,11 +107,20 @@ ul {
     color: white;
     text-decoration: none;
     border-radius: 6px;
-    margin-top: 15px;
 }
 
 .button:hover {
     background: #001d3d;
+}
+
+/* BUTTON GROUP (nuevo) */
+
+.button-group {
+    margin-top: 15px;
+}
+
+.button-group .button {
+    margin-right: 10px;
 }
 
 /* CONTACT */
@@ -143,4 +152,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
